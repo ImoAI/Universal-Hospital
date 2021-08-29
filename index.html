@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Universal Hospital</title>
+      
+    <style>
+        html{
+            scroll-behavior: smooth;
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            width:100%;
+        }
+        
+        #main{
+           
+            font-size: 100px;
+            text-align: center;
+            color: red;
+            margin-top: 10px;
+            margin-left: 100px;
+            filter: saturate(var(--value,4));
+            
+        }
+        .circle{
+             align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 120px 60px;
+            margin: auto;
+            text-align:center;
+            font-size:150px;
+            justify-content: center;
+            color: red;
+            margin-top: 70px;
+            margin-left: 600px;
+            filter: saturate(var(--value,4));
+            
+        }
+        #main2{
+            
+            font-size: 50px;
+            text-align: center;
+            margin-top: 80px;
+            margin-left: 100px;
+            color: red;
+            filter: saturate(var(--value,4));
+        }
+        
+        .arrowdown{
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg)
+        }
+        
+         a{
+              color: black;
+              text-decoration: black;
+          }
+      #button{
+          
+          align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 50%;
+          width: 10px;
+          height: 10px;
+          margin-top: 20px;
+          margin-left: 735px;
+           color: red;
+            
+           
+        }
+           .button1{
+          
+          align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            border-radius: 30%;
+          width: 400px;
+               font-size: 30px;
+               
+        
+           
+        }
+        #button1{
+            margin-top: 150px;
+            margin-left: 100px;
+           
+            
+            
+        }
+          #button2{
+              align-self: flex-end;
+            margin-top: 50px;
+              margin-left: 100px;
+               
+          }
+          #button3{
+              margin-left: 1000px;
+              margin-top: -240px;
+              
+              
+          }
+        #button4{
+              margin-left: 1000px;
+              margin-top: 50px;
+            
+          }
+                .module {
+          width: 300px;
+          height: 300px;
+          display: grid;
+          place-items: center;
+          color: #ff43ea;
+          position: relative;
+        }
+        .module::before {
+          content: "";
+          top: 0;
+          left: 0;
+          width: 498%;
+          height: 500%;
+          position: absolute;
+          background-image: url(beautifulblackdoctors.jpg);
+          background-size: cover;
+          filter: saturate(var(--value,2));
+            
+        }
+       
+        .module-inside {
+          position: relative;
+          font: bold 42px sans-serif;
+        }
+        #paragraph{
+             align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 40px;
+            color: red;
+        }
+        #button5{
+            margin-left: 550px;
+        }
+
+
+      
+      </style>
+  </head>
+  <body>
+      <div class="module">
+  <div class="module-inside">
+   
+ 
+    <h1 id="main">UNIVERSAL HOSPITAL</h1>
+      <div class="circle">UH</div>
+      <div>
+      <h2 id="main2">Kenya's No.1 Online Hospital</h2></div>
+      <div class="blur"></div>
+      <div class="block block_1">
+      </div>
+     
+      <div>
+      <a href="#buttons">
+      <button id="button" class="button" style="background-color: red"> <div class="arrowdown"></div></button>
+      </a></div>
+      
+      <div>
+      
+      <div id="buttons" class="buttons">
+   <a href="index1.html"><button id="button1" class="button1" style="background-color: red">Sign up as a patient</button></a>
+        <a href="index2.html"><button id="button2" class="button1" style="background-color: red">Log in as a patient</button></a>
+        <a href="index3.html"><button id="button3" class="button1" style="background-color: red">Sign up as a doctor</button></a>
+        <a href="index4.html"><button id="button4" class="button1" style="background-color: red">Log in as a doctor</button></a>
+          <p id="paragraph">If you feel like our doctors are not right for you, you can choose to find the nearest registered hospital</p>
+          <a href="http://kmhfl.health.go.ke/#/facility_filter" target="_blank"><button id="button5" class="button1" style="background-color: red">Find hospitals</button></a>
+         
+</div>
+      </div>
+       </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  </body>
+</html>
